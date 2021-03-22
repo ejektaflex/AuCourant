@@ -3,8 +3,8 @@
   "id": "sample",
   "version": "${version}",
 
-  "name": "Kambrik Sample Mod",
-  "description": "A Sample Mod for Kambrik",
+  "name": "Au Courant",
+  "description": "A vanilla-like combat mod",
   "authors": [
     "Ejektaflex"
   ],
@@ -20,7 +20,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.ejekta.sample.SampleMod"
+      "io.ejekta.sample.AuCourantMod"
+    ],
+    "client": [
+      "io.ejekta.sample.client.AuCourantClientInit"
     ]
   },
   "mixins": [

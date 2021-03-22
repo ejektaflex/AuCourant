@@ -1,5 +1,4 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import net.fabricmc.loom.task.RemapSourcesJarTask
 
 plugins {
 	//id 'com.github.johnrengelman.shadow' version '6.1.0'

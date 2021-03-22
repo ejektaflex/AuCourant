@@ -4,6 +4,10 @@
 	"package": "io.ejekta.sample.mixins",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
+
+	],
+	"client": [
+		"KeyPressMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
